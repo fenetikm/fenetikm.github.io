@@ -46,6 +46,20 @@
       img .reveal {
         max-height: 75%;
       }
+      .reveal .controls .navigate-left.enabled {
+        border-right-color:#ccc;
+      }
+      .reveal .controls .navigate-right.enabled {
+        border-left-color:#ccc;
+      }
+      .reveal .progress span {
+        background:#ccc;
+      }
+      .reveal h2 {
+        -webkit-text-shadow: 2px 2px 2px rgba(0,0,0,0.75);
+        -moz-text-shadow: 2px 2px 2px rgba(0,0,0,0.75);
+        text-shadow: 2px 2px 2px rgba(0,0,0,0.75);
+      }
     </style>
 
 		<!-- Printing and PDF exports -->
@@ -87,7 +101,11 @@
 				controls: true,
 				progress: true,
 				history: true,
-				center: true,
+        width: 960,
+        height: 700,
+        margin: 0.1,
+        minScale: 0.2,
+        maxScale: 1.5,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
