@@ -21,7 +21,6 @@ Only needs to work for select and radio widgets.
 ---
 
 <!-- .slide: data-background="images/demo.jpg" -->
-.
 
 ---
 
