@@ -9,11 +9,11 @@ Michael Welford
 
 ---
 
-## Controlled Fields module [WIP]
+## Controlled Fields: tldr;
 
 The Challenge: allow non-technical administrators to 
 *easily* set one field to become visible when the value
-of another field is something specified.
+of another field matches a specified value.
 
 Limitations: Only required for form display (not view display). 
 Only needs to work for select and radio widgets.
