@@ -24,7 +24,7 @@ Michael Welford
 ## About Me: Before UofA
 
 - Previously a business owner for roughly 10 years in the digital agency space
-- Delivered a lot of products, digital and otherwise over that time
+- Delivered a lot of products, digital and otherwise over that time, with varying roles for me
 - Always in a lean fashion (delivering prototypes early, MVP, into the market ASAP and interate)
 
 ---
@@ -43,7 +43,7 @@ So let's take an overview of how Scrum sees the Product Owner role (thanks AxisA
 
 ---
 
-<img href="images/scrum.jpg">
+![Scrum](images/scrum.jpg)
 
 ---
 
