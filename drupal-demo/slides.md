@@ -20,9 +20,37 @@ Academic Applications Support
 
 ---
 
-"Drupal is a completely flexible system for building web based solutions.
+"Drupal is a completely flexible system for building digital solutions.
 
-It provides many layers that can be leveraged - from providing high level turn key solutions to low level code libraries and storage backend management. Drupal isn't tied to any delivery channel - it can provide the backend for a Voice UI such as Amazon Alexa, drive a digital signage system such as the New York city subway or drive multiple websites at once (e.g. govCMS used by the Australia Government). Everything is flexible, everything is customisable, down to every line of code. Drupal is an Open Source system and every day more functionality is being developed that is available to all."
+It provides many layers that can be leveraged - from providing high level turn key solutions to low level code libraries and storage backend management."
+
+
+---
+
+![](images/govcms.png)
+
+It is used by governments for managing hundreds of sites.
+
+
+---
+
+![](images/economist.png)
+
+It is used to power some of the most popular mobile applications in the world.
+
+
+---
+
+![](images/mta.png)
+
+It drives digital signage across the New York subway system.
+
+
+---
+
+![](images/princess.png)
+
+It is used to drive the complete experience across multiple channels for cruise liner passenger experience management.
 
 
 ---
@@ -32,7 +60,7 @@ It provides many layers that can be leveraged - from providing high level turn k
 - <span class="fragment">Profile (e.g. WCMS, CCSP, contenta, Drupal Commerce)</span>
 - <span class="fragment">Features (e.g. blog, online shop,)</span>
 - <span class="fragment">Modules (e.g. Trim, Keycloak, Views, SOLR Integration etc.)</span>
-- <span class="fragment">Administration UI</span>
+- <span class="fragment">Administration UI and separated look and feel</span>
 - <span class="fragment">Services (e.g. routing, permissions, file handling etc.)</span>
 - <span class="fragment">Entities (e.g. users, articles, fields, media etc.)</span>
 - <span class="fragment">Configuration management (e.g. field types, displays, settings etc.)</span>
@@ -58,31 +86,36 @@ It provides many layers that can be leveraged - from providing high level turn k
 
 - Reusable functionality
 - Development process
+- Life cycle
 
 
 ---
 
 ### REUSABLE FUNCTIONALITY
 
-- UA Middleware (mocking, magic service, milestone service)
-- UA Trim (send any content to HPE CM)
-- Keycloak (leverages Open ID)
-- Form management (entity_draft, filter_form_values, controlled_fields, workflow_field_groups, field_group_access, entity_print_form, field_gate, field_presets, PDF generation etc.)
-- Content management (ua_gallery, ua_a_to_z_list, ua_accordion, ua_footer, ua_ldap_auth, ua_library, ua_widget_block, ua_courses, etc.)
-- UA Theme (based on official UA style guide)
+- Integration (PS reporting, PS milestone, Trim, email)
+- Auth (CAS, Keycloak, LDAP)
+- Form management (drafts, workflow, field access, PDF, controlled fields, reporting etc.)
+- Content management (widgets, )
+- Look and feel (Style guide theme)
 
 
 ---
 
 ### DEVELOPMENT PROCESS
 
-- Gitlab for version control
-- Integration with Jira
-- Git flow development
-- Merge requests and code review
-- Code analysis
-- Automated testing
-- Deployment and UAT
+- Maturity:
+  - Version control
+  - Code quality analysis and code review
+  - Automated testing
+  - Continuous integration
+  - Managed deployment
+  - Tooling
+
+
+---
+
+### LIFE CYCLE
 
 
 ---
