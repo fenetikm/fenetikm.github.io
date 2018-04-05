@@ -58,7 +58,7 @@ It is used to drive the complete experience across multiple channels for cruise 
 ### DRUPAL SYSTEM LAYERS
 
 - <span class="fragment">Profile (e.g. WCMS, CCSP, contenta, Drupal Commerce)</span>
-- <span class="fragment">Features (e.g. blog, online shop,)</span>
+- <span class="fragment">Features (e.g. blog, online shop, events)</span>
 - <span class="fragment">Modules (e.g. Trim, Keycloak, Views, SOLR Integration etc.)</span>
 - <span class="fragment">Administration UI and separated look and feel</span>
 - <span class="fragment">Services (e.g. routing, permissions, file handling etc.)</span>
@@ -96,7 +96,8 @@ It is used to drive the complete experience across multiple channels for cruise 
 - Integration (PS reporting, PS milestone, Trim, email)
 - Auth (CAS, Keycloak, LDAP)
 - Form management (drafts, workflow, field access, PDF, controlled fields, reporting etc.)
-- Content management (widgets, )
+- Content management (widgets, roles, workflow)
+- Deployment (deploy, backup, restore, multiple environments)
 - Look and feel (Style guide theme)
 
 
@@ -105,7 +106,8 @@ It is used to drive the complete experience across multiple channels for cruise 
 ### DEVELOPMENT PROCESS
 
 - Maturity:
-  - Version control
+  - Version control and process
+  - Best practice adherence
   - Code quality analysis and code review
   - Automated testing
   - Continuous integration
